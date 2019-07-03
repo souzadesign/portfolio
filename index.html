@@ -5,6 +5,16 @@
 		<title> Matheus Souza </title>
 		<meta name="description" content="Portfólio de Matheus Souza"/>
 		<link rel="stylesheet" type="text/css" href="matheus.css" />
+
+			<!--Estilização da tela e do corpo do texto-->
+			<style>
+				body { 
+					background-color: rgba(0, 255, 130, 0.8);
+					color: rgb(64, 7, 0);
+					font-family: "helvetica, arial";
+				}
+			</style>
+
 	</head>
 
 	<body>
@@ -13,6 +23,65 @@
         <p> Olá, Mundo!</p>
 		<h1>Julia</h1>
 		<h2> i love you</h2>
+		<!--Texto Simples-->
+		<p>Olá mundo</p>
+<!--Texto Especial-->
+		<b>Texto em negrito</b>		<br>
+		<i>Texto em itálico</i>		<br>
+	   	<u>Texto sublinhado</u>		<br>
+	  	<sub>Texto subscrito</sub>	<br>
+	   	<sup>Texto sobrescrito</sup><br>
+	   	<big>Texto com fonte maior do que o padrão</big> <br>
+	   	<small>Texto com fonte menor do que o padrão</small> <br>
+	   	<em>Texto em itálico</em><br>
+	   	<strong>Texto em negrito</strong>
+
+
+<!--Paragrafo com estilização de fonte-->		
+		<p style="font-family: Helvetica, Arial">Olá, mundo novamente!</p>
+<!--imagem-->
+		<img src="img/img.jpg" width="300px">
+		     <p></p>
+
+<!-- Link -->
+		<a href="http://google.com" >Google</a>
+
+		<p>
+<!-- Formulário -->
+		<form action=”processa.php” method=”post”>
+			<label>Text</label>
+			<input type=”text” name=”text1” placeholder=”Text”> 
+			
+			<br>
+<!--senha-->
+			<label>Password</label>
+			<input type=”password” name=”senha”>
+
+			<br>
+<!--mensagem oculta-->
+			<label>Oculto</label>
+			<imput type=”hidden” name=”informacao_oculta” value=”mensagem oculta”>
+
+			<br>
+<!--seleção-->
+			<label>Select</label>
+			<select> name=”selecao”>
+				<option value=”1”>opção 1</option>
+				<option value=”2”>opção 2</option> 
+			</select>
+<br>
+<!--alternativas-->
+			<label>Radio</label>
+			<input type="radio" name="radio1" value="1">Valor 1
+			<input type="radio" name="radio1" value="2">Valor 2<br><br>
+
+<!--Check box-->
+			<label>Checkbox</label> <br>
+			<input type="checkbox" name="ck1" value="1" checked>Valor 1<br>
+			<input type="checkbox" name="ck1" value="2">Valor 2<br>
+<!--Botao de Ação-->
+			<input type="submit" value="Enviar"
+
 	</body>
 
 </html>
