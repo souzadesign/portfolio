@@ -1,0 +1,14 @@
+p{
+    color: darkred;
+    font-size: 16px;
+}
+body{font-family: helvetica, arial}
+
+.cab{
+    color: rebeccapurple;
+    text-align: center;
+    
+}
+img{
+    image-orientation: center;
+}
